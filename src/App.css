@@ -1,38 +1,146 @@
 .App {
-  text-align: center;
+  /* height: 100vh; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.journal-input {
+  font-size: 32px;
+  height: 20em;
+  width: 20em;
+  margin-top: 5em;
+  border: none;
+  font-family: "Cinzel", serif;
+  box-shadow: 0px 0px 10px 0px #888;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.journal-div {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 100vh;
+  width: 100vw;
+  background: -webkit-linear-gradient(white, lightpink, rgb(250, 144, 162));
+}
+
+.header-div {
+  position: relative;
+  display: flex;
+  width: 100vw;
+  position: absolute;
+  margin-top: 0;
+}
+.journal {
+  margin-left: 39%;
+  font-family: "Permanent Marker", cursive;
+  font-size: 70px;
+  margin-top: 0;
+}
+
+.unwind-banner {
+  padding: 0;
+  width: 35%;
+}
+
+.journal-title {
+  display: inline-block;
+  transform: rotate(90deg);
+  transform-origin: top left;
+  margin-left: 210px;
+  font-size: 210px;
+  margin-top: 160px;
+  margin-bottom: 40px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 3px white;
+}
+
+.dropdown {
+  display: none;
+}
+
+.buttons {
+  display: inline-block;
+  border: 0.1em solid white;
+  margin: 0.2em 2em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  color: pink;
+  text-align: center;
+  transition: all 0.2s;
+  text-transform: uppercase;
+  width: 20%;
+  height: 40px;
+}
+
+button:hover {
   color: white;
+  border-color: black;
+  background-color: black;
 }
 
-.App-link {
-  color: #61dafb;
+.click {
+  border: solid black 2px;
+  height: 180px;
+  width: 200px;
+  background-color: rgb(252, 172, 0);
+  border-radius: 40%;
+  top: 46%;
+  left: 45%;
+  position: absolute;
+  text-align: center;
+  font-size: 80px;
+  line-height: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flip {
+  border: solid black 2px;
+  width: 20%;
+  background-color: rgb(9, 243, 247);
+  height: 180px;
+  width: 200px;
+  border-radius: 40%;
+  top: 46%;
+  left: 70%;
+  position: absolute;
+  text-align: center;
+  font-size: 80px;
+  line-height: 15px;
+}
+
+.turn {
+  border: solid black 2px;
+  height: 180px;
+  width: 20%;
+  background-color: rgb(9, 238, 9);
+  width: 200px;
+  border-radius: 40%;
+  top: 46%;
+  left: 19%;
+  position: absolute;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 80px;
+  line-height: 15px;
+}
+
+.game-body {
+  height: 100px;
+  width: 60%;
+  background-color: black;
+  /* border-radius: 50%; */
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  
+}
+
+.game-div {
+  /* display: flex; */
+  height: 100vh;
+  width: 100vw;
+  background: -webkit-linear-gradient(white, lightblue, rgb(136, 136, 186));
+}
+
+.visuals-div {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background: -webkit-linear-gradient(rgb(247, 4, 4), rgb(10, 170, 223), rgb(247, 4, 4));
 }
