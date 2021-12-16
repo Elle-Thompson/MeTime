@@ -1,6 +1,6 @@
 // import { Link } from 'react-router-dom';
 import React from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate, Navigate, Link } from 'react-router-dom';
 
 const Header = () => {
 
@@ -18,9 +18,9 @@ const Header = () => {
 				
 
 				<div className="header-dropdown">
-                <Link to='game'>Game</Link>
-				<Link to='journal'>Journal</Link>
-				<Link to='visuals'>Visuals</Link>
+                <Link exact to='/game'>Game</Link>
+				<Link exact to='/journal'>Journal</Link>
+				<Link exact to='/visuals'>Visuals</Link>
 
 				</div>
 

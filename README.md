@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Project Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Links
 
-## Available Scripts
+- [Github repo link TBD]()
+- [Deployment link TBD]()
 
-In the project directory, you can run:
+## Project Description
 
-### `npm start`
+This is a project that I have wanted to create 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Wireframes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-### `npm run build`
+- [Wireframe 1](https://res.cloudinary.com/dhslunnmd/image/upload/v1635796334/IMG_6823_qwoen2.jpg )
+- [Wireframe 2](https://res.cloudinary.com/dhslunnmd/image/upload/v1635796335/IMG_6824_ysimhh.jpg )
+- [React architecture](https://res.cloudinary.com/dhslunnmd/image/upload/v1635801072/IMG_6828_rduuaj.jpg)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### MVP/PostMVP - 5min
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The mvp functionality will include basic character search abilities using character name and the ability to save specific characters to a list of favorites.
 
-### `npm run eject`
+#### MVP 
+- Find and use external api 
+- Render data on page 
+- Allow user to interact with the page
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### PostMVP 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Add animations
+- Add sound clips
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Components
+##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components. 
 
-## Learn More
+| Component | Description | 
+| --- | :---: |  
+| App | This will make the initial data pull and include React Router| 
+| Header | This will render the title | 
+| Nav | This will render the nav | 
+| Episode | This will render the episode name and number |
+| Favorites | This will render a list of favorite characters |
+| CharacterInfo | This will render the information about the characters searched |
+| Location | This will render the locations |
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
 
-### Code Splitting
+| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Create components | H | 8hrs| TBD | TBD |
+| Working with API | H | 8hrs| TBD | TBD |
+| Routing | H | 5hrs| TBD | TBD |
+| Links | H | 3hrs| TBD | TBD |
+| Styling | H | 3hrs| TBD | TBD |
+| Total | H | 6hrs| TBD | TBD |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Additional Libraries
+ Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
 
-### Analyzing the Bundle Size
+## Code Snippet
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+function reverse(string) {
+	// here is the code to reverse a string of text
+}
+```
