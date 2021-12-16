@@ -29,6 +29,28 @@ const Journal = () => {
           <button className="buttons">New Entry</button>
           <button className="buttons">Old Entries</button>
         </div>
+        
+        <form className="sign-up">
+        <h2>Sign Up </h2>
+          <input type="text" placeholder="Enter Username"/>
+          <br/>
+          <br/>
+          <input type="password" placeholder="Enter Password"/>
+          <br/> 
+          <br/>
+          <button>Submit</button>
+        </form>
+        
+        <form className="sign-in">
+          <h2>Sign In </h2>
+          <input type="text" placeholder="Enter Username"/>
+          <br/>
+          <br/>
+          <input type="password" placeholder="Enter Password"/>
+          <br/> 
+          <br/>
+          <button>Submit</button>
+        </form>
         <div className="dropdown">
           <ul>
             <li>Previous date (placeholder)</li>

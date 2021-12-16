@@ -19,13 +19,24 @@
   background: -webkit-linear-gradient(white, lightpink, rgb(250, 144, 162));
 }
 
-.header-div {
-  position: relative;
-  display: flex;
+#header-div {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-evenly;
   width: 100vw;
   position: absolute;
   margin-top: 0;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
 }
+/* .header-dropdown{
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+} */
 .journal {
   margin-left: 39%;
   font-family: "Permanent Marker", cursive;
@@ -174,39 +185,32 @@ button:hover {
   height: 100vh;
 }
 
-/* img {
-  position: absolute;
-  left: 35%;
-  top: 20%;
-  height: 600px;
-} */
 
-
-/* Pacman button snippet taken from CSS-Tricks: The shape of css */
-#btn1 {
+.btn1 {
   position: absolute;
   top: 20%;
   left: 20%;
   font-size: 30px;
-  color:rgb(139, 58, 147);
+  color:black;
   text-decoration: none;
  
 }
-#btn2 {
+.btn2 {
   position: absolute;
   top: 44%;
   left: 45%;
   font-size: 30px;
-  color:rgb(83, 0, 91);
+  color:black;
   text-decoration: none;
 }
 
-#btn3 {
+.btn3 {
   position: absolute;
   top: 70%;
   left: 70%;
   font-size: 30px;
   text-decoration: none;
+  color:black;
 }
 
 .game {
@@ -230,4 +234,26 @@ button:hover {
   left: 73%;
   font-size: 40px;
 }
+.fas {
+  color: black;
+}
 
+.sign-up {
+  position: absolute;
+  right: 10%;
+  top: 18%;
+  border: solid white 2px;
+  padding: 10px;
+ 
+}
+.sign-in {
+  position: absolute;
+  right: 10%;
+  top: 41%;
+  border: solid white 2px;
+  padding: 10px;
+}
+input {
+  line-height: 20px;
+   width: auto;
+}
