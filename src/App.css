@@ -27,7 +27,7 @@
   position: absolute;
   margin-top: 0;
   color: black;
-  padding-top: 10px;
+  /* padding-top: 10px; */
   padding-bottom: 10px;
   background-color: white;
 }
@@ -234,8 +234,13 @@ button:hover {
   left: 73%;
   font-size: 40px;
 }
-.fas {
+#header-button:hover {
+  border: solid pink 3px;
+}
+#header-button {
   color: black;
+  border: white solid 3px;
+  /* padding-left: 10%; */
 }
 
 .sign-up {
