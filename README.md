@@ -2,7 +2,7 @@
 
 ## Project Links
 
-- [Github repo link TBD]()
+- [Github repo link](https://github.com/Elle-Thompson/MeTime)
 - [Deployment link TBD]()
 
 ## Project Description
@@ -15,10 +15,10 @@ This is a project that I have wanted to create for a while. Version 1 includes a
 
 
 
-- [Wireframe (Home)]( https://res.cloudinary.com/dhslunnmd/image/upload/v1639700144/Project%204%20-%20MeTime%20%28screenshots%29/Screen_Shot_2021-12-16_at_4.13.25_PM_numvng.png)
+- [Wireframe (Home)](https://res.cloudinary.com/dhslunnmd/image/upload/v1639700144/Project%204%20-%20MeTime%20%28screenshots%29/Screen_Shot_2021-12-16_at_4.13.25_PM_numvng.png)
 - [Wireframe (Game)](https://res.cloudinary.com/dhslunnmd/image/upload/v1639700150/Project%204%20-%20MeTime%20%28screenshots%29/Screen_Shot_2021-12-16_at_4.13.41_PM_xalahn.png )
 - [Wireframe (Journal)](https://res.cloudinary.com/dhslunnmd/image/upload/v1639700155/Project%204%20-%20MeTime%20%28screenshots%29/Screen_Shot_2021-12-16_at_4.13.55_PM_gclqt2.png )
-- [Wireframe (Music)] (https://res.cloudinary.com/dhslunnmd/image/upload/v1639700163/Project%204%20-%20MeTime%20%28screenshots%29/Screen_Shot_2021-12-16_at_4.14.07_PM_dqmvdh.png )
+- [Wireframe (Music)](https://res.cloudinary.com/dhslunnmd/image/upload/v1639700163/Project%204%20-%20MeTime%20%28screenshots%29/Screen_Shot_2021-12-16_at_4.14.07_PM_dqmvdh.png )
 
 
 
