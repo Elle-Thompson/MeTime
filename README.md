@@ -48,13 +48,12 @@ Based on the initial logic defined in the previous sections try and breakdown th
 
 | Component | Description | 
 | --- | :---: |  
-| App | This will make the initial data pull and include React Router| 
-| Header | This will render the title | 
-| Nav | This will render the nav | 
-| Episode | This will render the episode name and number |
-| Favorites | This will render a list of favorite characters |
-| CharacterInfo | This will render the information about the characters searched |
-| Location | This will render the locations |
+| App | This will house the routes| 
+| Header | This will render the nav | 
+| Game | This will render the game | 
+| Journal | This will render the journal and entries|
+| Music | This will render a music player |
+| Home | This will render the links to other components |
 
 
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evaluate game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.

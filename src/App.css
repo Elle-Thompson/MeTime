@@ -91,6 +91,7 @@ button:hover {
   height: 180px;
   width: 200px;
   background-color: rgb(252, 172, 0);
+  color: transparent;
   border-radius: 40%;
   top: 46%;
   left: 45%;
@@ -100,8 +101,9 @@ button:hover {
   line-height: 15px;
 }
 
-.flip {
+.turn {
   border: solid black 2px;
+  color: transparent;
   width: 20%;
   background-color: rgb(9, 243, 247);
   height: 180px;
@@ -113,10 +115,12 @@ button:hover {
   text-align: center;
   font-size: 80px;
   line-height: 15px;
+  /* padding: 10px; */
 }
 
-.turn {
+.slide {
   border: solid black 2px;
+  color: transparent;
   height: 180px;
   width: 20%;
   background-color: rgb(9, 238, 9);
@@ -131,6 +135,25 @@ button:hover {
   line-height: 15px;
 }
 
+.current-choice {
+  position: absolute;
+  top: 10%;
+  left: 44%;
+  font-size: 50px;
+  /* display: none; */
+}
+.click1 {
+  color: black;
+  z-index: -2;
+}
+.slide1 {
+  color: black;
+  z-index: -2;
+}
+.turn1 {
+  color: black;
+  z-index: -2;
+}
 .game-body {
   height: 100px;
   width: 60%;
@@ -145,7 +168,8 @@ button:hover {
   /* display: flex; */
   height: 100vh;
   width: 100vw;
-  background: -webkit-linear-gradient(white, lightblue, rgb(136, 136, 186));
+  /* background: linear-gradient(0.40turn, #e66465, #9198e5); */
+  background: -webkit-linear-gradient( rgb(86, 205, 245),purple);
 }
 
 .visuals-div {
@@ -153,16 +177,12 @@ button:hover {
   height: 100vh;
   width: 100vw;
   background: -webkit-linear-gradient(
-    rgb(247, 4, 4),
+    green,
     rgb(10, 170, 223),
     rgb(247, 4, 4)
   );
 }
 
-.announce {
-  font-size: 50px;
-  top: 0;
-}
 
 .game-wrapper {
   /* grid-template-rows: 1fr 1fr 1fr; */
@@ -170,14 +190,11 @@ button:hover {
   height: 300px;
 }
 
-.game-body-div {
-  /* grid-row-start: 2;
- grid-row-end: 3; */
-}
 .announce {
   position: absolute;
   top: 10%;
   left: 32%;
+  font-size: 50px;
 }
 
 .home {
@@ -261,4 +278,30 @@ button:hover {
 input {
   line-height: 20px;
    width: auto;
+}
+
+#start-button {
+  position: absolute;
+  left: 45.5%;
+  top: 80%;
+  font-size: 40px;
+}
+
+#reset-button {
+  position: absolute;
+  right: 42%;
+  top: 80%;
+  font-size: 40px;
+}
+
+#score {
+ position: absolute;
+ right: 23.5%;
+ top: 10%;
+ font-size: 45px;
+ display: flex;
+ width: auto;
+ height: 150px;
+ /* flex-wrap: wrap; */
+ justify-content: center;
 }
