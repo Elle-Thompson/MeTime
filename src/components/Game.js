@@ -1,5 +1,5 @@
 import Header from "./Header";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const Game = () => {
   const choiceList = ["Turn it!", "Click it!", "Slide it!"];
@@ -9,32 +9,34 @@ const Game = () => {
   // const [time, setTime] = useState(0);
 
   const currentButton = () => {
-    setCurrentChoice(choiceList[Math.floor(Math.random() * choiceList.length)])
-    return currentChoice
+    setCurrentChoice(choiceList[Math.floor(Math.random() * choiceList.length)]);
+    return currentChoice;
   };
 
   const handleStart = () => {
-    setCurrentChoice(currentButton)
+    setCurrentChoice(currentButton);
   };
 
   const handleChoice = (event) => {
-    console.log(event)
-    console.log(currentChoice)
-  if (event.target.outerText == currentChoice ) { currentButton(); setScore(()=> score + 1)} 
-  else {  setCurrentChoice("Game Over") }  
-  }
-
+    console.log(event.target.innerText);
+    console.log(currentChoice);
+    const text= event.target.innerText + " it!" 
+    if (text == currentChoice) {
+      currentButton();
+      setScore(() => score + 1);
+    } else {
+      setCurrentChoice("Game Over");
+    }
+  };
 
   const handleReset = () => {
     setCurrentChoice();
-    setScore(0)
-  }
+    setScore(0);
+  };
 
-
-const clickIt = "Click it!"
-const turnIt = "Turn it!"
-const slideIt = "Slide it!"
-
+  const Click = "Click it!"
+  const Turn = "Turn it!"
+  const Slide = "Slide it!"
 
   return (
     <div className="game-div">
@@ -52,7 +54,7 @@ const slideIt = "Slide it!"
         </div>
         <div id="score">
           <div id="score-title">
-            <h4> Score  </h4>
+            <h4> Score </h4>
           </div>
           <h4> : {score} </h4>
         </div>
@@ -60,27 +62,36 @@ const slideIt = "Slide it!"
         <div className="game-body-div">
           <div className="game-body">Game Body</div>
 
-          <div id={clickIt} className="click">
-            <p onClick={handleChoice}> <span className="click1">Click </span>it!</p>
+          <div className="click">
+            <p onClick={handleChoice}> Click
+            </p>
           </div>
 
-          <div id={turnIt} onClick={handleChoice} className="turn">
-            <p> <span className="turn1">Turn </span>it!</p>
+          <div className="turn">
+            <p onClick={handleChoice}>
+            
+              Turn 
+            </p>
           </div>
 
-          <div id={slideIt} onClick={handleChoice} className="slide">
-            <p> <span className="slide1"> Slide  </span>it!</p>
+          <div className="slide">
+            <p onClick={handleChoice}>
+        
+              Slide  
+              
+            </p> 
+            
           </div>
 
-<div id="control-panel">     
-          <button onClick={handleStart} id="start-button">
-            Start
-          </button>
+          <div id="control-panel">
+            <button onClick={handleStart} id="start-button">
+              Start
+            </button>
 
-          <button onClick={handleReset} id="reset-button">
-            Reset
-          </button>
-</div>
+            <button onClick={handleReset} id="reset-button">
+              Reset
+            </button>
+          </div>
         </div>
       </div>
     </div>

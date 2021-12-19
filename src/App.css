@@ -91,7 +91,7 @@ button:hover {
   height: 180px;
   width: 200px;
   background-color: rgb(252, 172, 0);
-  color: transparent;
+  color: black;
   border-radius: 40%;
   top: 46%;
   left: 45%;
@@ -103,7 +103,7 @@ button:hover {
 
 .turn {
   border: solid black 2px;
-  color: transparent;
+  color: black;
   width: 20%;
   background-color: rgb(9, 243, 247);
   height: 180px;
@@ -120,7 +120,7 @@ button:hover {
 
 .slide {
   border: solid black 2px;
-  color: transparent;
+  color: black;
   height: 180px;
   width: 20%;
   background-color: rgb(9, 238, 9);
@@ -142,20 +142,9 @@ button:hover {
   font-size: 50px;
   /* display: none; */
 }
-.click1 {
-  color: black;
-  z-index: -2;
-}
-.slide1 {
-  color: black;
-  z-index: -2;
-}
-.turn1 {
-  color: black;
-  z-index: -2;
-}
+
 .game-body {
-  height: 100px;
+  height: 50px;
   width: 60%;
   background-color: white;
   /* border-radius: 50%; */
