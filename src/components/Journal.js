@@ -1,8 +1,8 @@
 import Header from "./Header";
-import { useState, useEffect } from "react";
+// import { useState } from "react";
 
 const Journal = () => {
-  const [journal, setJournal] = useState();
+  // const [journal, setJournal] = useState();
 
 
 
