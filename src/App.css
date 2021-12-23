@@ -93,9 +93,9 @@ button:hover {
   width: 200px;
   background-color: rgb(252, 172, 0);
   color: black;
-  border-radius: 50%;
+  border-radius: 50% 50% 20% 20%;
   top: 46%;
-  left: 45%;
+  left: 44%;
   position: absolute;
   text-align: center;
   font-size: 80px;
@@ -109,9 +109,9 @@ button:hover {
   background-color: rgb(9, 243, 247);
   height: 180px;
   width: 200px;
-  border-radius: 50%;
+  border-radius: 50% 50% 20% 20%;
   top: 46%;
-  left: 70%;
+  left: 67%;
   position: absolute;
   text-align: center;
   font-size: 80px;
@@ -126,7 +126,7 @@ button:hover {
   width: 20%;
   background-color: rgb(9, 238, 9);
   width: 200px;
-  border-radius: 50%;
+  border-radius: 50% 50% 20% 20%;
   top: 46%;
   left: 19%;
   position: absolute;
@@ -143,7 +143,7 @@ button:hover {
   width: 20%;
   background-color: rgb(252, 172, 0);
   width: 200px;
-  border-radius: 50%;
+  border-radius: 50% 50% 20% 20%;
   top: 76%;
   left: 19%;
   position: absolute;
@@ -160,9 +160,9 @@ button:hover {
   width: 20%;
   background-color: rgb(9, 238, 9);
   width: 200px;
-  border-radius: 50%;
+  border-radius: 50% 50% 20% 20%;
   top: 76%;
-  left: 70%;
+  left: 67%;
   position: absolute;
   text-align: center;
   padding-top: 10px;
@@ -176,14 +176,23 @@ button:hover {
   width: 20%;
   background-color: rgb(9, 243, 247);
   width: 200px;
-  border-radius: 50%;
+  border-radius: 50% 50% 20% 20%;
   top: 76%;
-  left:45%;
+  left:44%;
   position: absolute;
   text-align: center;
   padding-top: 10px;
   font-size: 80px;
   line-height: 15px;
+}
+
+#buttonEffect:hover {
+  border: solid white 5px;
+  background-color: yellow;
+  color: red;
+  border-radius: 50%;
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 50%, 50% 50%, 50% 0%);
+  transform: rotate(25deg);
 }
 
 .current-choice {
@@ -221,7 +230,7 @@ button:hover {
 .announce {
   position: absolute;
   top: 10%;
-  left: 32%;
+  left: 27%;
   font-size: 50px;
 }
 
@@ -319,7 +328,7 @@ input {
 #control-panel {
   position: absolute;
   top: 30%;
-  left: 43%;
+  left: 42%;
   padding: 50px;
   display: flex;
   justify-content: space-between;
@@ -327,7 +336,7 @@ input {
 
 #score {
  position: absolute;
- right: 15.5%;
+ right: 10.5%;
  top: 10%;
  font-size: 45px;
  display: flex;
@@ -335,4 +344,5 @@ input {
  height: 150px;
  /* flex-wrap: wrap; */
  justify-content: center;
+ color: red;
 }

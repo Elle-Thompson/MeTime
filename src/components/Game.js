@@ -5,7 +5,7 @@ const Game = () => {
   const choiceList = ["Turn it!", "Click it!", "Slide it!"];
   // let buttonsList = ["Turn", "Click", "Slide"]
   // let shuffledArray = []
-  const [buttonsList, setButtonsList] = useState(["Turn", "O_O ", "Click", "O_O ", "Slide", "O_O "]);
+  const [buttonsList, setButtonsList] = useState(["Turn", "Click", "Slide", "O_O ", "O_O ", "O_O "]);
   const [currentChoice, setCurrentChoice] = useState();
   // const [button1, setButton1] = useState("");
   // const [button2, setButton2] = useState("");
@@ -46,7 +46,7 @@ const Game = () => {
      setTimer(setTimeout(() => {
       console.log("hi")
       setCurrentChoice("Game Over");
-    }, 1500))
+    }, 1800))
        shuffleArray(buttonsList)
     if (text === currentChoice) {
       currentButton();
@@ -62,6 +62,7 @@ const Game = () => {
   const handleReset = () => {
     setCurrentChoice();
     setScore(0);
+    setButtonsList(["Turn", "Click", "Slide", "O_O ", "O_O ", "O_O "])
   };
 
   return (
@@ -83,30 +84,30 @@ const Game = () => {
         </div>
 
         <div className="game-body-div">
-          <div className="click">
+          <div id="buttonEffect" className="click">
            
             <p onClick={handleChoice}> {buttonsList[0]} </p>
           </div>
 
-          <div className="test">
+          <div id="buttonEffect" className="test">
            
             <p onClick={handleChoice}>{buttonsList[4]}</p>
           </div>
-          <div className="test1">
+          <div id="buttonEffect" className="test1">
            
             <p onClick={handleChoice}>{buttonsList[5]}</p>
           </div>
-          <div className="test2">
+          <div id="buttonEffect" className="test2">
            
             <p onClick={handleChoice}>{buttonsList[3]}</p>
           </div>
 
-          <div className="turn">
+          <div id="buttonEffect" className="turn">
            
             <p onClick={handleChoice}>{buttonsList[1]}</p>
           </div>
 
-          <div className="slide">
+          <div id="buttonEffect" className="slide">
            
             <p onClick={handleChoice}>{buttonsList[2]} </p>
           </div>
