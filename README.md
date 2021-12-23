@@ -3,11 +3,13 @@
 ## Project Links
 
 - [Github repo link](https://github.com/Elle-Thompson/MeTime)
-- [Deployment link TBD]()
+- [Deployment link TBD](https://elle-thompson-metime.netlify.app/game)
 
 ## Project Description
 
-This is a project that I have wanted to create for a while. Version 1 includes a remodeled version of a childhood favorite game called "Bop It" built entirely in react. Version 2 adds a journal feature with user authorization using react for the front-end and Django/Python for the back-end database. This feature will provide full CRUD operations for journal entries. Version 3 adds the final feature; a music player.
+*Project is currently in version 1 with full game functionality*
+
+This is a project that I have wanted to create for a while. Version 1 includes a remodeled version of a childhood favorite game called "Bop It" built entirely in react. Version 2 adds a journal feature with user authorization using react for the front-end and Django/Python for the back-end database. This feature will provide full CRUD operations for journal entries.
 
 
 
@@ -18,7 +20,7 @@ This is a project that I have wanted to create for a while. Version 1 includes a
 - [Wireframe (Home)](https://res.cloudinary.com/dhslunnmd/image/upload/v1639700144/Project%204%20-%20MeTime%20%28screenshots%29/Screen_Shot_2021-12-16_at_4.13.25_PM_numvng.png)
 - [Wireframe (Game)](https://res.cloudinary.com/dhslunnmd/image/upload/v1639700150/Project%204%20-%20MeTime%20%28screenshots%29/Screen_Shot_2021-12-16_at_4.13.41_PM_xalahn.png )
 - [Wireframe (Journal)](https://res.cloudinary.com/dhslunnmd/image/upload/v1639700155/Project%204%20-%20MeTime%20%28screenshots%29/Screen_Shot_2021-12-16_at_4.13.55_PM_gclqt2.png )
-- [Wireframe (Music)](https://res.cloudinary.com/dhslunnmd/image/upload/v1639700163/Project%204%20-%20MeTime%20%28screenshots%29/Screen_Shot_2021-12-16_at_4.14.07_PM_dqmvdh.png )
+
 
 
 
@@ -39,8 +41,7 @@ The mvp functionality will include basic character search abilities using charac
 - Create full CRUD capabilities for journal
 - User auth for journal
 - Style journal component
-- Construct music component
-- Style music component
+
 
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
 
@@ -52,34 +53,37 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Header | This will render the nav | 
 | Game | This will render the game | 
 | Journal | This will render the journal and entries|
-| Music | This will render a music player |
 | Home | This will render the links to other components |
 
 
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evaluate game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
+##### TimeFrames
 
-| Component | Priority | Estimated Time | Time Invested | Actual Time |
+| Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Create components | H | 8hrs| TBD | TBD |
-| Game functionality | H | 12hrs| TBD | TBD |
-| Routing | H | 2hrs| TBD | TBD |
-| Links | H | 2hrs| TBD | TBD |
-| Styling | H | 16hrs| TBD | TBD |
-| CRUD | H | 12hrs| TBD | TBD |
-| User auth | H | 10hrs| TBD | TBD |
-| Music player | H | 24hrs| TBD | TBD |
-| Total | H | 86hrs| TBD | TBD |
+| Create components | H | 8hrs| 1hr |
+| Game functionality | H | 12hrs| 26hrs |
+| Routing | H | 2hrs| 2hrs |
+| Links | H | 2hrs| 1hr |
+| Styling | H | 16hrs| 20hrs |
+| CRUD | H | 12hrs| TBD |
+| User auth | H | 10hrs| TBD |
+| Music player | H | 24hrs| TBD |
+| Total | H | 86hrs| 50hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and their role in the project such as Axios, ReactStrap, D3, etc. 
 
-Node sound (npm sound)
+Google Fonts
+Font awesome
+
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
+<!-- This snippet was borrowed from stackoverflow - https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array -->
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
 ```
