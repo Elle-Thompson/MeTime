@@ -1,9 +1,13 @@
 import Header from "./Header";
 // import { useState } from "react";
+import { useEffect } from "react";
 
 const Journal = () => {
   // const [journal, setJournal] = useState();
 
+useEffect (() => {
+  alert("This component will be functional in V2. For now you can enjoy the game :)")
+})
 
 
 
