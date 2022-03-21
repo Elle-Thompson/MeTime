@@ -31,8 +31,8 @@ The mvp functionality will include basic character search abilities using charac
 #### MVP 
 - Construct app components
 - Construct routes
-- Construct "Bop-it" components
-- Construct "Bop-it" functionality 
+- Construct "Bop-It" components
+- Construct "Bop-It" functionality 
 - Add animations
 - Add component styling
 - Add sound clips
