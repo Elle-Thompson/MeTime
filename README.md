@@ -7,7 +7,7 @@
 
 ## Project Description
 
-**Project is currently in version 1 with full game functionality**
+**This project is currently in version 1 with full game functionality**
 
 This is a project that I have wanted to create for a while. Version 1 includes a remodeled version of a childhood favorite game called "Bop It" built entirely in react. Version 2 adds a journal feature with user authorization using react for the front-end and Django/Python for the back-end database. This feature will provide full CRUD operations for journal entries.
 
