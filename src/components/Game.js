@@ -3,13 +3,10 @@ import { useState} from "react";
 
 const Game = () => {
   const choiceList = ["Turn it!", "Click it!", "Slide it!"];
-  // let buttonsList = ["Turn", "Click", "Slide"]
-  // let shuffledArray = []
+  
   const [buttonsList, setButtonsList] = useState(["Turn", "Click", "Slide", "O_O ", "O_O ", "O_O "]);
   const [currentChoice, setCurrentChoice] = useState();
-  // const [button1, setButton1] = useState("");
-  // const [button2, setButton2] = useState("");
-  // const [button3, setButton3] = useState("");
+ 
   const [timer, setTimer] = useState(null);
   const [score, setScore] = useState(0);
 
